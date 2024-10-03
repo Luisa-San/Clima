@@ -6,6 +6,9 @@
     border-radius: 15px;
     box-shadow: 3px 3px 10px black;
     justify-content: space-between;
+    width: 500px;
+    height: 200px;
+   transition:  0.3s ease-in;
     
 }
 .sol {
@@ -45,4 +48,7 @@
     padding: 22px;
     color: white;
    
+}
+.contenedor:hover {
+    transform: translateX(40px) translateY(15px) scaleX(120%) scaleY(120%);
 }
